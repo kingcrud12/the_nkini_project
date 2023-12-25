@@ -16,7 +16,7 @@ export default async function Home() {
                 <h1 className="hover:text-purple-400 text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight lg:min-w-[700px] min-w-full">
                   <AnimatedTitle />
                 </h1>
-                <p className="hover:text-white font-bold text-black leading-relaxed">
+                <p className="hover:text-purple-400 font-bold text-black leading-relaxed">
                   {data.shortBio}
                 </p>
                 <ul className="flex font-bold items-center gap-x-6 my-10">
